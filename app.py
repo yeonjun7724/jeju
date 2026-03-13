@@ -22,7 +22,7 @@ st.set_page_config(
 )
 
 # ✅ 환경변수
-MAPBOX_TOKEN = pk.eyJ1Ijoia2lteWVvbmp1biIsImEiOiJjbWwwcWVyOG8wZGZpM2RxeWJ0eW9rM3dmIn0.b2idyXvhTgzd4mHQT7Nr8A
+MAPBOX_TOKEN = "pk.eyJ1Ijoia2lteWVvbmp1biIsImEiOiJjbWwwcWVyOG8wZGZpM2RxeWJ0eW9rM3dmIn0.b2idyXvhTgzd4mHQT7Nr8A"
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 # ✅ 데이터 로드
